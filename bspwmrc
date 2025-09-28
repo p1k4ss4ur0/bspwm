@@ -28,13 +28,13 @@ picom -f &
 
 xcape -e 'Super_L=Alt_L|F1' &
 
-xrandr --output DP-0 --mode 3440x1440 --primary
+xrandr --output DP-2 --mode 3440x1440 --primary
 
-sxhkd -c /home/tiago/.config/bspwm/sxhkd/sxhkdrc & 
+sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc & 
 
-feh --bg-fill /home/tiago/.config/bspwm/images/background.jpg &
+feh --bg-fill ~/.config/bspwm/images/background.png &
 
-polybar -r -c /home/tiago/.config/bspwm/polybar/config.ini &
+polybar -r -c ~/.config/bspwm/polybar/config.ini &
 
 if pacman -Ss nvidia-settings; then
     nvidia-settings -a "[gpu:0]/GPUFanControlState=1" -a "[fan:0]/GPUTargetFanSpeed=30" &

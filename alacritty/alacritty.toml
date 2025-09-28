@@ -1,0 +1,26 @@
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super|Shift"
+
+[general]
+live_config_reload = true
+import = ["/home/tiago/.config/bspwm/alacritty/colors.toml", "/home/tiago/.config/bspwm/alacritty/fonts.toml"]
+
+[cursor]
+unfocused_hollow = false
+
+[cursor.style]
+blinking = "Off"
+shape = "Beam"
+
+[window.dimensions]
+columns = 160
+lines = 40
+
+[window.padding]
+x = 10
+y = 10
+
+[keyboard]

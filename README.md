@@ -2,15 +2,22 @@
 
 My bspwm config files
 
-# Download
-
-```sh
-git clone https://github.com/p1k4ss4ur0/bspwm
-```
-
 # Overview
 
 ![alt](/images/overview.png)
+
+# Download
+
+```sh
+git clone https://github.com/p1k4ss4ur0/bspwm.git
+```
+
+# Installation
+
+Run [install.sh](https://github.com/p1k4ss4ur0/bspwm/install.sh) and it **might** check and install all needed dependencies as well as move or **overwrite** all convenient files and folders.
+
+It's wise to make a backup of your previous configuration files if you have one.
+
 
 # Note
 
